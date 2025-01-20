@@ -1,0 +1,202 @@
+body{
+    margin: 0px;
+}
+
+#header{
+    background-color: greenyellow;
+    height: 100px;
+    position: sticky;
+    font-size: 45px;
+    top: 0px;
+    box-shadow: 0px 0px 40px black;
+    overflow: hidden;
+    z-index: 190;
+}
+#header1{
+    margin: 0px;
+    padding: 23px;
+    font-family: "Arial Rounded MT";
+    overflow: hidden;
+}
+
+
+/*          BODY        */
+#d1{
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: rgba(4, 255, 0, 0.203);
+    max-height: 400px;
+    margin: 100px;
+    text-align: center;
+    margin-bottom: 160px;
+    transition: 0.3s linear;
+    overflow: hidden;
+
+    
+    
+}
+#d1:hover{
+    box-shadow: 0px 0px 40px rgb(153, 255, 0);
+
+}
+#img1{
+    max-height: 400px;
+    float: right;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+#img2{
+    height: 400px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.p1{
+    margin: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: calibri;
+}
+
+
+/*          HOBIES          */
+
+#myHobies{
+    min-height: 700px;
+    position: relative;
+    background-color: rgb(172, 255, 47);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 40px;
+}
+
+#MyHob1{
+    font-size: 50px;
+    font-family: "Poppins";
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0px;
+}
+.MyHob{
+    border: 1px solid ;
+    border-radius: 20px;
+    background-color: white;
+    height: 330px;
+    width: 290px;
+    transition: 0.5s;
+    z-index: 100;
+    padding: 10px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 20px;
+
+}
+
+.MyHob:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgb(121, 121, 121);
+}
+
+.MyHob:active{
+    transform: rotateY(180deg);
+    box-shadow: -10px 10px 10px rgb(121, 121, 121);
+    
+}
+
+
+
+
+
+/*              FOOTER              */
+#footer{
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    
+    color:white;
+    padding: 50px;
+    position: relative;
+}
+#form{
+    border:1px solid black;
+    max-width: fit-content;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-120%,-45%);
+}
+#name,#mesagge{
+    border: 0.5px solid black;
+    width: fit-content;
+    padding: 8px;
+    font-size: 25px;
+    font-family: calibri;
+}
+#mesagge{
+    height: 150px;
+}
+#i1,#i2{
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgb(233, 233, 233);
+}
+#i1{
+    height: 26px;
+    width: 200px;
+    position: relative;
+    top: -2px;
+    padding: 3px;
+    padding-left: 7px;
+    margin-left: 8px;
+}
+#i2{
+    position:  relative;
+    top: 10px;
+    left: 0px;
+    width: 280px;
+    height: 100px;
+}
+#submit1{
+    border: 0.5px solid black;
+    width: 240px;
+}
+#submit{
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0px none;
+    padding: 5px 10px 5px 10px;
+    font-family: arial;
+    background-color: white;
+    transition: 0.1s linear;
+    transform: translate(190px,10px);
+}
+
+#submit:hover{
+    box-shadow: 0px 2px 10px gray;
+    transform: translate(190px,8px);
+}
+
+#id{
+    width: fit-content;
+    position: relative;
+    top: 35%;
+    left: 55%;
+    font-size: 20px;
+    font-family: calibri;
+    line-height: 50px;
+    transition: 0.5s;
+}
+.id{
+    transition: 0.4s;
+}
+.id:hover{
+    text-shadow: 0px 0px 10px white;
+    transform: scale(1.2);
+}
