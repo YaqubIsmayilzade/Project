@@ -293,3 +293,13 @@ body{
     }
 
 }
+@media (max-width: 430px){
+    #header1{
+        font-size: 20px;
+        transform: translatey(-15%);
+    }
+    #header{
+        font-size: 20px;
+        height: 50px;
+    }
+}
